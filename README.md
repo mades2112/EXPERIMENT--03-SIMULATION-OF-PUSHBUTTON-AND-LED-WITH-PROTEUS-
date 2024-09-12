@@ -71,7 +71,15 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 
 
 ## STM 32 CUBE PROGRAM :
-
+```
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+	if((GPIO_Pin == GPIO_PIN_1))
+	{
+		HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_2);
+	}
+}
+```
 
 
 
