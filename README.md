@@ -86,12 +86,14 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 ## Output screen shots of proteus  :
 
 
+![pmcex3](https://github.com/user-attachments/assets/749cc2ab-90c9-4340-a30c-ac4177bf6de0)
 
 
 ## Proteus layout(Add pdf screen shot of circuit here)
  
  
- 
+ ![pmcex3 d](https://github.com/user-attachments/assets/468d0020-485b-4388-9485-518a5c4a0e9c)
+
  
 ## Result :
 Interfacing a digital output and digital input  with ARM microcontroller are simulated in proteus and the results are verified.
